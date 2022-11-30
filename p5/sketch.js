@@ -47,6 +47,7 @@ function draw() {
     //draw black ellipse on marker
     fill(0);
     ellipse(hPos.x, hPos.y, 50);
+    line(hPos.x,hPos.y,hPos.x+50,hPos.y+50);
   
   }
 
