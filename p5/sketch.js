@@ -47,8 +47,11 @@ function draw() {
     //draw black ellipse on marker
     fill(0);
     ellipse(hPos.x, hPos.y, 50);
-    for(var y = 10; x < 100 ; x+= 10){
-    line(hPos.x,hPos.y,hPos.x+y,hPos.y+y);
+    for(var y = 10; x < 100 ; x+= 15){
+    line(hPos.x,hPos.y,hPos.x,hPos.y+y);
+    line(hPos.x,hPos.y,hPos.x+y,hPos.y);
+    line(hPos.x,hPos.y,hPos.x,hPos.y-y);
+    line(hPos.x,hPos.y,hPos.x-y,hPos.y);
     
     }
   
